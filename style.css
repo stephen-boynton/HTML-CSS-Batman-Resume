@@ -58,7 +58,7 @@ nav ul li:hover {
   background-position: center;
   height: 680px;
   background-color: black;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -66,10 +66,16 @@ nav ul li:hover {
   color: white;
   font-style: italic;
   font-size: 18px;
+  padding-right: 100px;
 }
 
-#right-side {
+#testimonials-right {
   display: flex;
   flex-direction: column;
   align-content: space-between;
+  margin-right: -300px;
+}
+
+#testimonials-right p {
+  margin: 100px;
 }
