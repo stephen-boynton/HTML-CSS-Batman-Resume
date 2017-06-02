@@ -22,9 +22,6 @@ body {
 
 #logo {
   display: inline-block;
-  flex-grow: 2;
-  flex-shrink: 5;
-  flex-wrap: wrap;
 }
 
 nav {
@@ -54,12 +51,11 @@ a {
 
 nav ul li {
   text-decoration: none;
-  padding: 0px 30px;
+  padding: 15px 30px;
   font-size: 20px;
   color: white;
   font-family: serif;
   display: inline-block;
-  flex-wrap: wrap;
 }
 
 nav ul li:hover {
